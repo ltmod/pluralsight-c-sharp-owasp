@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OWASP.SSRF.Web.After.props" />
+</Project>

@@ -1,0 +1,31 @@
+﻿@using System.Runtime.InteropServices
+@using OWASP.AuthenticationFailure.Web.After.Controllers
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+
+    var data = (List<AuthController.User>) ViewBag.Data;
+}
+
+<table class="table table-sm table-striped">
+    <thead>
+    <tr>
+        <th scope="col">Username</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Password</th>
+        <th scope="col">Role</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in data)
+    {
+        <tr>
+            <th scope="row">@item.Username</th>
+            <td>@item.Firstname</td>
+            <td>@item.Password</td>
+            <td>@item.Role</td>
+        </tr>
+    }
+
+    </tbody>
+</table>

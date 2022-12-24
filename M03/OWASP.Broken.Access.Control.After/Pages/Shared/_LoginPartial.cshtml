@@ -1,0 +1,48 @@
+﻿@using HashidsNet
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    // used here to simulate the use of an ID in a query.
+    var id = 1;
+    switch (User.Identity?.Name?.ToLower())
+    {
+        case "admin@test.com":
+            id = 1;
+            break;
+        case "user@test.com":
+            id = 2;
+            break;
+        case "anotheruser@test.com":
+            id = 3;
+            break;
+    }
+
+    var hash = new Hashids("eKGkc6@c+yPepL08@s=r+v+DWzeI(oRpL!m0AXSxjt*(f=KQX1", 10);
+    var encodedId = hash.Encode(id);
+
+    <li class="nav-item">
+            <a class="nav-link text-dark" href="/Identity/Account?id=@encodedId" title="Manage">Hello @User.Identity?.Name!</a>
+    </li>
+    <li class="nav-item">
+        <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/", new { area = "" })" method="post" >
+            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>

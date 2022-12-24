@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QWk3NGP746SwcMO3ln4zjmZeox7SxHKAnKaZxTKjbRqORAvk77FcUFk7X24S2KEraUf5XFWLQmpJLMZ/r9wM8Q==",
+  "success": true,
+  "projectFilePath": "H:\\Code\\Pluralsight\\c-sharp-10-owasp-secure-coding\\M04\\M04\\OWASP.CryptographicFailures.Web.After\\OWASP.CryptographicFailures.Web.After.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\quads\\.nuget\\packages\\nwebsec.aspnetcore.core\\3.0.0\\nwebsec.aspnetcore.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\quads\\.nuget\\packages\\nwebsec.aspnetcore.middleware\\3.0.0\\nwebsec.aspnetcore.middleware.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OWASP.Misconfiguration.Web.After/1.0.0": {
+        "runtime": {
+          "OWASP.Misconfiguration.Web.After.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OWASP.Misconfiguration.Web.After/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

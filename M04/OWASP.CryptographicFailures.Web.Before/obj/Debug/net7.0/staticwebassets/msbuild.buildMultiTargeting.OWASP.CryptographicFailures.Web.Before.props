@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OWASP.CryptographicFailures.Web.Before.props" />
+</Project>

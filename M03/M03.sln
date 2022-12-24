@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWASP.Broken.Access.Control.Before", "OWASP.Broken.Access.Control.Before\OWASP.Broken.Access.Control.Before.csproj", "{3695B79E-DDB1-4F3C-8488-0D19A674AE24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWASP.Broken.Access.Control.After", "OWASP.Broken.Access.Control.After\OWASP.Broken.Access.Control.After.csproj", "{42634862-7531-40AF-B60A-845A984F8EB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3695B79E-DDB1-4F3C-8488-0D19A674AE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3695B79E-DDB1-4F3C-8488-0D19A674AE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3695B79E-DDB1-4F3C-8488-0D19A674AE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3695B79E-DDB1-4F3C-8488-0D19A674AE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42634862-7531-40AF-B60A-845A984F8EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42634862-7531-40AF-B60A-845A984F8EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42634862-7531-40AF-B60A-845A984F8EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42634862-7531-40AF-B60A-845A984F8EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30578AD5-3527-420E-BAAE-CD3631420B35}
+	EndGlobalSection
+EndGlobal

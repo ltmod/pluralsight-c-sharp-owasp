@@ -1,0 +1,22 @@
+<?xml version="1.0"?> 
+ <products>
+     <product id="1">
+        <title>Special Latte</title>
+        <description>A delicious Latte drink with chocolate!</description>
+        <picture>coffee-3.png</picture>
+        <price>17.50</price>
+     </product>
+          <product id="2">
+        <title>Another Latte</title>
+        <description>A delicious Latte drink!</description>
+        <picture>coffee-3.png</picture>
+        <price>14.50</price>
+     </product>
+      <product id="3">
+        <title>Vanilla Latte</title>
+        <description>A delicious Latte drink with vanilla!</description>
+        <picture>coffee-3.png</picture>
+        <price>12.50</price>
+     </product>
+ </products>
+ 

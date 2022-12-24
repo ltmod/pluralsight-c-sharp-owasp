@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OWASP.Broken.Access.Control.Before.props" />
+</Project>

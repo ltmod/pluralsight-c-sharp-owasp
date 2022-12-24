@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OWASP.Misconfiguration.Web.After.props" />
+</Project>

@@ -1,0 +1,66 @@
+﻿@page 
+@model OWASP.Broken.Access.Control.After.Areas.Identity.Pages.AccountModel
+
+@{
+    ViewData["Title"] = "My Account";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <h2>Hello, @Model.Input.Username!</h2>
+
+
+        <div class="card mb-4">
+            <div class="card-header" style="background: aliceblue;">Account Details</div>
+            <div class="card-body">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputUsername">Username (how your name will appear to other users on the site)</label>
+                            <input class="form-control" id="inputUsername" type="text" placeholder="Enter your username" value="@Model.Input.Username">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputEmailAddress">Email address</label>
+                            <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="@Model.Input.EmailAddress">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="small mb-1" for="inputFirstName">First name</label>
+                            <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" value="@Model.Input.FirstName">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputLastName">Last name</label>
+                            <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" value="@Model.Input.LastName">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputOrgName">Organization name</label>
+                            <input class="form-control" id="inputOrgName" type="text" placeholder="Enter your organization name" value="@Model.Input.Organization" />
+                        </div>
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputLocation">Location</label>
+                            <input class="form-control" id="inputLocation" type="text" placeholder="Enter your location" value="@Model.Input.Location">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputPhone">Phone number</label>
+                            <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number" value="@Model.Input.PhoneNumber">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="small mb-1" for="inputBirthday">Birthday</label>
+                            <input class="form-control" id="inputBirthday" type="text" name="birthday" placeholder="Enter your birthday" value="@Model.Input.BirthDate.ToShortDateString()">
+                        </div>
+                    </div>
+                    <!-- Save changes button-->
+                    <button class="btn btn-primary" style="float: right;margin-top:10px" type="button">Save changes</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

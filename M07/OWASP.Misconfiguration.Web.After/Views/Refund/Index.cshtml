@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model OWASP.Misconfiguration.Web.After.Repository.Refunds
+@{
+    ViewData["Title"] = "Refund Data";
+}
+
+<div class="row">
+
+    <div class="col-md-6 offset-3">
+        <div class="card">
+            <div class="card-body">
+                <h3>Refund</h3>
+                <form method="post">
+                    <h5>Balance: @Model.CurrentBalance.ToString("C")</h5>
+                    <label for="inputAmount" class="sr-only">Email address</label>
+                    <input type="number" id="inputAmount" name="Amount" class="form-control" placeholder="Dollar amount to refund" required autofocus style="margin-bottom: 20px;">
+                    <label for="inputEmail" class="sr-only">Password</label>
+                    <input type="email" id="inputEmail" name="Email" class="form-control" placeholder="Email Address" required style="margin-bottom: 20px;" />
+
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Refund</button>
+                </form>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Refund Amount</th>
+                        <th>Refund Email</th>
+                    </tr>
+                    @foreach (var item in Model.RefundList)
+                    {
+                        <tr>
+                            <td>@item.RefundAmount.ToString("C")</td>
+                            <td>@item.Email</td>
+                        </tr>
+                    }
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,48 @@
+﻿@page
+@model OWASP.Injections.Web.After.Pages.DataGridModel
+@{
+    ViewData["Title"] = "Data Grid Example";
+}
+
+
+
+<form method="GET">
+<div class="row">
+    <div class="col-md-12">
+        <div class="input-group mb-3">
+          
+            <input type="text" name="Search" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2" style="float: left;">
+            <input type="submit" class="btn btn-primary" style="float: right;" id="button-addon2" value="Search">
+          
+        </div>
+    </div>
+</div>
+</form>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">City</th>
+                <th scope="col">State</th>
+            </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.GridData)
+                {
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td>@item.FirstName</td>
+                        <td>@item.LastName</td>
+                        <td>@item.City</td>
+                        <td>@item.Usstate</td>
+                    </tr>
+                }
+            
+            </tbody>
+        </table>
+    </div>
+</div>

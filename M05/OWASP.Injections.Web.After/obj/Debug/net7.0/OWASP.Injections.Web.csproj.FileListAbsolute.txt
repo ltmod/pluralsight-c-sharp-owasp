@@ -1,0 +1,8 @@
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.csproj.AssemblyReference.cache
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.GeneratedMSBuildEditorConfig.editorconfig
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.AssemblyInfoInputs.cache
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.AssemblyInfo.cs
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.csproj.CoreCompileInputs.cache
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.MvcApplicationPartsAssemblyInfo.cache
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.RazorAssemblyInfo.cache
+H:\Code\Pluralsight\c-sharp-10-owasp-secure-coding\M05\M05\OWASP.Injections.Web\obj\Debug\net7.0\OWASP.Injections.Web.RazorAssemblyInfo.cs

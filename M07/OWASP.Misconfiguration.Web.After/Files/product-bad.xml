@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE external [
+	<!ENTITY desc1 SYSTEM "appsettings.json">
+]>
+<products>
+	<product id="1">
+		<title>Special Latte</title>
+		<description>&desc1;</description>
+		<picture>coffee-3.png</picture>
+		<price>17.50</price>
+	</product>
+</products>

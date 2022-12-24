@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OWASP.AuthenticationFailure.Web.Before.props" />
+</Project>

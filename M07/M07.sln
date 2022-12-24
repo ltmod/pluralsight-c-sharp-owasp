@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWASP.Misconfiguration.Web.Before", "OWASP.Misconfiguration.Web.Before\OWASP.Misconfiguration.Web.Before.csproj", "{EF7A0537-7180-443C-A3DA-ADC41215E1F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OWASP.Misconfiguration.Web.After", "OWASP.Misconfiguration.Web.After\OWASP.Misconfiguration.Web.After.csproj", "{7BA4FAEF-71CC-441E-8EAD-F7297D1BB284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7A0537-7180-443C-A3DA-ADC41215E1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7A0537-7180-443C-A3DA-ADC41215E1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7A0537-7180-443C-A3DA-ADC41215E1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7A0537-7180-443C-A3DA-ADC41215E1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA4FAEF-71CC-441E-8EAD-F7297D1BB284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA4FAEF-71CC-441E-8EAD-F7297D1BB284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA4FAEF-71CC-441E-8EAD-F7297D1BB284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA4FAEF-71CC-441E-8EAD-F7297D1BB284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D8A2146-354C-4776-961E-B4F270CB1196}
+	EndGlobalSection
+EndGlobal

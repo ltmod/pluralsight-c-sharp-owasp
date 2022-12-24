@@ -1,0 +1,37 @@
+﻿@page
+@model ReportModel
+@{
+    ViewData["Title"] = "SSRF via an OS Injection";
+}
+
+<div class="row">
+
+    <div class="col-md-6 offset-3">
+        <div class="card">
+            <div class="card-body">
+                <h3>Refresh Report Data</h3>
+                <form method="post">
+                    <!-- parameters to the report.exe file -->
+                    <select id="reports" name="report" class="form-select" style="margin-bottom: 20px;">
+                        <option value="sales">Sales</option>
+                        <option value="users">Users</option>
+                        <option value="inventory">Inventory</option>
+                    </select>
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Run Report</button>
+                </form>
+                <br /><br />
+                @if (!string.IsNullOrEmpty(Model.Output))
+                {
+                    <div class="alert alert-secondary" role="alert">
+                        <code>
+                            @Model.Output
+                        </code>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+
+</div>

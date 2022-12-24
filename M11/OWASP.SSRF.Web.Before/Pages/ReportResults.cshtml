@@ -1,0 +1,17 @@
+﻿@page
+@model ReportResultsModel
+@{
+    ViewData["Title"] = "SSRF via an HTTP";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="btn-group-vertical" style="width:100%">
+            <a href="ReportResults?reporturl=@{@Model.BaseUrl}reports/sales.html" type="button" class="btn btn-primary">Sales</a>
+            <a href="ReportResults?reporturl=@{@Model.BaseUrl}reports/users.html" type="button" class="btn btn-primary">Users</a>
+        </div>
+    </div>
+    <div class="col-md-10">
+        @Html.Raw(@Model.Output)
+    </div>
+</div>

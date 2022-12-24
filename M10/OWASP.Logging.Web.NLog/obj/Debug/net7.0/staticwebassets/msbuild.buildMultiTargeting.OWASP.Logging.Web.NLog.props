@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OWASP.Logging.Web.NLog.props" />
+</Project>

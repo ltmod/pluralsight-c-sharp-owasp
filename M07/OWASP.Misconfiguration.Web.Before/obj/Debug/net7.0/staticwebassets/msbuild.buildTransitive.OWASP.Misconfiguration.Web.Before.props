@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OWASP.Misconfiguration.Web.Before.props" />
+</Project>

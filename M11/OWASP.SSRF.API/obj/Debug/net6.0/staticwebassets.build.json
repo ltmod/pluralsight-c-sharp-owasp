@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kwsg5dBXR5sFOJVDEYEo7JMsBbzvX+rK3/HKHz2QwLU=",
+  "Source": "OWASP.SSRF.API",
+  "BasePath": "_content/OWASP.SSRF.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
